@@ -12,7 +12,7 @@ def main_read2():
         #input('presione enter')
         documento=f.readline().rstrip('\n').split(',')
     f.close()
-
+    
 def suma(lista):
     salida=""
     for dato in lista:
@@ -30,7 +30,6 @@ def main_read3():
     print(lista)
     a=suma(lista)
     print(a)
-
 
 if __name__=="__main__":
     #main_read()
